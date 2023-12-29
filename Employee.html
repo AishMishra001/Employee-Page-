@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Page </title>
+  <style>
+    body {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      overflow-y: hidden;
+    }
+
+    .main {
+      display: flex;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgb(72, 72, 238);
+    }
+
+    .flex {
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .form {
+      width: 70vw;
+      padding-top: 100px;
+    }
+
+    .button {
+      padding: 5px;
+      width: 250px;
+    }
+
+    .Register-button {
+      background: rgb(72, 72, 238);
+      color: white;
+      border: none;
+      border-radius: 40px;
+      /* padding :5px; */
+      padding: 10px 20px;
+      width: 120px;
+
+    }
+
+    .register {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+    .container1 {
+      /* display: flex; */
+      /* justify-content: flex-end; */
+      background: rgb(235, 231, 231);
+      margin-bottom: 50px;
+      height: 650px;
+      margin-left: 50px;
+      border-radius: 50px 0px 0px 50px;
+      margin-top: 90px;
+      margin-right: 50px;
+      border-top-left-radius: 250px;
+      border-bottom-left-radius: 250px;
+      /* border-block-start: 500px ; */
+    }
+
+    .login {
+      background-color: white;
+      color: grey;
+      width: 120px;
+      border: none;
+      border: 1px solid black;
+      border-radius: 50px;
+      padding: 10px 15px;
+      font-weight: 500;
+      color: black;
+    }
+
+    .container2 {
+      /* align-items: flex-start; */
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 200px;
+      /* background-color: rgb(64, 64, 242); */
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container3 {
+      padding-top: 100px;
+    }
+
+    .main2 {
+      /* padding: 20px 20px 20px 20px;
+      padding-bottom: 100px;
+      padding-right: 200px; */
+    }
+
+    .top {
+      display: flex;
+      justify-content: right;
+      /* position: relative; */
+      /* display: flex ; */
+      /* align-items: end; */
+      font-style: none;
+      margin-right: 50px;
+      /* left: 1; */
+      /* right: 0px; */
+    }
+
+    ul {
+      background-color: blue;
+      border-radius: 50px;
+      padding: 5px;
+
+    }
+    .main{
+      box-sizing: border-box;
+
+    }
+    .register{
+      display: flex;
+      justify-content: right;
+      margin-right: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main2">
+    <div class="main">
+      <div class="container2">
+        <div class="container3">
+
+          <div class="grip" style="display: flex; flex-direction:column ;">
+            <h2>Welcome</h2>
+
+
+
+            <p>You are 30 seconds </p>
+
+
+            <p>away from earning your</p>
+
+
+            <p> own money!</p>
+            <button class="login">Login</button>
+          </div>
+        </div>
+        <div class="flex"></div>
+      </div>
+      <div class="container1">
+        <form class="form" action="backend.php">
+          <div class="top">
+            <ul style="display: inline-flex; font-size: 20px; list-style-type: none;  ">
+              <li style="background-color: white; border-radius: 50px;font-size: 15px;">Employee</li>
+              <li style="color: white; font-size: 15px;">Hired</li>
+            </ul>
+          </div>
+          <center>
+            <h1>Apply as a Employee</h1>
+          </center>
+          <div class="flex">
+            <input class="button" type="text" placeholder="First Name *">
+            <input class="button" type="email" placeholder="Email *">
+          </div>
+          <br>
+          <br>
+          <div class="flex">
+            <input class="button" type="text" placeholder="Last Name *">
+            <input class="button" type="number" placeholder="Your Phone *">
+          </div>
+          <br>
+          <br>
+          <div class="flex">
+            <input class="button" type="password" placeholder="Password *">
+            <input class="button" type="password" placeholder="Password *">
+
+                  <!-- <select id="selectInput" name="selectInput">
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+          </select> -->
+          </div>
+          <br>
+          <br>
+          <div class="flex">
+            <input class="button" type="text" placeholder="Confirm Password*">
+            <input class="button" type="text" placeholder="Enter Your Answer*">
+          </div>
+          <br>
+          <br>
+          <center>
+            <input type="radio" name="" id="">Male
+            <input type="radio" name="" id="">Female
+          </center>
+          <div class="register">
+            <button class="Register-button">Register</button>
+
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  </div>
+</body>
+
+
+
+
+
+
+
+</html>
